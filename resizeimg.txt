@@ -1,0 +1,14 @@
+###### rename and order dataset ######
+sudo apt-get install thunar
+
+1. open thunar and open the folder containing the pictures you want to train
+2. select all images and rightclick -> rename 
+3. select numbering, number format: 1,2,3.. ; text format: number-text; name only; start with: 1.
+
+##### to resize the images 
+
+on the images directory use the following command:
+
+mogrify -resize 1024x768 *.jpg
+
+if different image size is required you can specify it.
